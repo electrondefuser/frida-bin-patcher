@@ -3,7 +3,7 @@ Frida Patcher is a patcher system designed for the Frida binary to avoid artifac
 This tool helps bypass detection by patching binary artifacts.
 
 # Features
-- Patches Frida (Gadget, Server adn Inject) binaries to evade detection.
+- Patches Frida (Gadget, Server and Inject) binaries to evade detection.
 - Easy to use and integrate into existing workflows.
 
 # Prerequisites
