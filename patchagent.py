@@ -14,6 +14,9 @@ class Patcher:
 
         if lief.is_elf(path):
             bin = lief.parse(path)
+        elif lief.is_macho(path):
+            print("[!] Mach-O/iOS binary verification is not supported yet")
+            sys.exit(1)
         else:
             print("[!] binary verification is only present in ELF formats")
             sys.exit(1)
