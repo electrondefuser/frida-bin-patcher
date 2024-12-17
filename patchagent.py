@@ -119,7 +119,6 @@ class Patcher:
             "frida-agent-32.so",
             "frida-server",
             "frida-agent-64.so",
-            "frida"
         ]
 
         for value in frida_strings_to_patch:
